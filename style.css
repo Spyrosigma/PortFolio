@@ -1,0 +1,89 @@
+body {
+    background-color: RGB(17, 17, 17);
+    font-family: 'Lora', serif;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.name:hover {
+    color: #000000;
+    background: linear-gradient(to right, rgb(9, 255, 30), rgb(203, 255, 15));
+    border-radius: 7px;
+    padding: 3px;
+    transition: 0.1s ease-in-out;
+
+}
+
+.myself {
+    max-width: 1000px;
+    background-color: RGB(64, 64, 64);
+    height: 60vh;
+    width: 60vw;
+    align-items: center;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    border: rgb(0, 0, 0) 2px solid;
+    box-shadow: white 0px 0px 15px 0px;
+    display: flex;
+}
+
+.circle-image {
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 50%;
+    max-width: 270px;
+    max-height: 270px;
+    width: auto;
+    height: auto;
+    background-color: #3498db;
+    border-radius: 50%;
+    border: rgb(0, 0, 0) 3px solid;
+    box-shadow: white 0px 0px 10px 0px;
+
+}
+
+
+.myimage {
+    width: 33%;
+    height: 100%;
+    /* border: red 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 60%;
+    height: 100%;
+    /* border: rgb(255, 0, 0) 2px solid; */
+    float: right;
+    padding: 10px;
+    display: flexbox;
+}
+
+.links {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 7px;
+}
+
+.link {
+    padding: 1px 3px 1px 5px;
+    height: 10vh;
+    width: 5vw;
+    box-sizing: border-box;
+    display: grid;
+    /* border: 2px solid red; */
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
