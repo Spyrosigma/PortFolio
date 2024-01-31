@@ -9,7 +9,6 @@ a {
     text-decoration: none;
 }
 
-
 .name:hover {
     color: #000000;
     background: linear-gradient(to right, rgb(9, 255, 30), rgb(203, 255, 15));
@@ -18,6 +17,7 @@ a {
     transition: 0.1s ease-in-out;
 
 }
+
 
 .myself {
     max-width: 1000px;
@@ -88,4 +88,11 @@ a {
     flex: 1;
     align-items: center;
     justify-content: center;
+}
+
+.link:hover{
+    background: linear-gradient(to right, rgb(9, 255, 30), rgb(203, 255, 15));
+    border-radius: 15px;
+    padding: 5px;
+    transition: 0.2s ease-in-out;
 }
