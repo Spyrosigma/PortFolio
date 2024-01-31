@@ -9,6 +9,14 @@ a {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 768px){
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+
+}
 
 .name:hover {
     color: #000000;
