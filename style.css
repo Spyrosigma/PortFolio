@@ -9,6 +9,7 @@ a {
     text-decoration: none;
 }
 
+
 .name:hover {
     color: #000000;
     background: linear-gradient(to right, rgb(9, 255, 30), rgb(203, 255, 15));
