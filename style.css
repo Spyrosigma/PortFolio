@@ -19,7 +19,6 @@ a {
 
 }
 
-
 .myself {
     max-width: 1000px;
     background-color: RGB(64, 64, 64);
@@ -36,6 +35,8 @@ a {
     border: rgb(0, 0, 0) 2px solid;
     box-shadow: white 0px 0px 15px 0px;
     display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .circle-image {
@@ -59,8 +60,10 @@ a {
     height: 100%;
     /* border: red 2px solid; */
     display: flex;
+    grid-row-start: auto;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .about {
@@ -70,8 +73,20 @@ a {
     float: right;
     padding: 10px;
     display: flexbox;
+    flex: 2;
 }
 
+@media (max-width: 768px) {
+    .myself {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .myimage,
+    .about {
+        width: 100%;
+    }
+}
 .links {
     display: grid;
     flex-wrap: wrap;
