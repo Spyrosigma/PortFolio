@@ -54,7 +54,7 @@ a {
     background-color: #3498db;
     border-radius: 50%;
     border: rgb(0, 0, 0) 3px solid;
-    box-shadow: white 0px 0px 10px 0px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 10px 0px;
 
 }
 
